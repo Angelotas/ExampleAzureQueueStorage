@@ -3641,7 +3641,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
       "Microsoft.NETCore.App >= 2.2.0",
-      "WindowsAzure.Storage"
+      "WindowsAzure.Storage >= 9.3.3"
     ]
   },
   "packageFolders": {
@@ -3691,7 +3691,7 @@
           },
           "WindowsAzure.Storage": {
             "target": "Package",
-            "version": "(, )"
+            "version": "[9.3.3, )"
           }
         },
         "imports": [

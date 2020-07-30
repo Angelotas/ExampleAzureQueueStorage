@@ -9,14 +9,14 @@ namespace QueueApp
 {
     class Program
     {
-        private const string ConnectionString = "DefaultEndpointsProtocol=https;EndpointSuffix=core.windows.net;AccountName=<name>;AccountKey=vyw6aKz2PtSAgQ4ljJQgJFgxbCETdXt39ZyYQ5fLqoBJj/gT+43TbrhoVco7Rqj/AAJVlvFORRfnYqGHiX9QcQ==";
+        private const string ConnectionString = "DefaultEndpointsProtocol=https;AccountName=articulos;AccountKey=JJkyJA4+egOkuUHzKiDyGIH18SSVIgVXdW5fVOMYnY+p++VLLHBARc7a108em/aBQHlagbtmJ+MGgLeucuQdHg==;EndpointSuffix=core.windows.net";
 
-        static void Main(string[] args)
+        static async Task Main(string[] args)
         {
             if (args.Length > 0)
             {
                 string value = String.Join(" ", args);
-                SendArticleAsync(value).Wait();
+                await SendArticleAsync(value);
                 Console.WriteLine($"Sent: {value}");
             }
         }

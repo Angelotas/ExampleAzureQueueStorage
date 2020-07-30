@@ -47,7 +47,7 @@
             },
             "WindowsAzure.Storage": {
               "target": "Package",
-              "version": "(, )"
+              "version": "[9.3.3, )"
             }
           },
           "imports": [
