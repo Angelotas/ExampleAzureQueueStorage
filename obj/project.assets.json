@@ -3651,11 +3651,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/angel_martin/QueueApp/QueueApp.csproj",
+      "projectUniqueName": "/home/angel_martin/ExampleAzureQueueStorage/QueueApp.csproj",
       "projectName": "QueueApp",
-      "projectPath": "/home/angel_martin/QueueApp/QueueApp.csproj",
+      "projectPath": "/home/angel_martin/ExampleAzureQueueStorage/QueueApp.csproj",
       "packagesPath": "/home/angel_martin/.nuget/packages/",
-      "outputPath": "/home/angel_martin/QueueApp/obj/",
+      "outputPath": "/home/angel_martin/ExampleAzureQueueStorage/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/share/dotnet/sdk/NuGetFallbackFolder"
